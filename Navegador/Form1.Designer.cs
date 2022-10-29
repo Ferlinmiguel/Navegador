@@ -32,11 +32,11 @@
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.btnretroceder = new System.Windows.Forms.ToolStripButton();
             this.btnavanzar = new System.Windows.Forms.ToolStripButton();
+            this.btnrefrescar = new System.Windows.Forms.ToolStripButton();
             this.btnhome = new System.Windows.Forms.ToolStripButton();
             this.cuadroBusqueda = new System.Windows.Forms.ToolStripTextBox();
             this.btnBuscar = new System.Windows.Forms.ToolStripButton();
             this.navegador = new System.Windows.Forms.WebBrowser();
-            this.btnrefrescar = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -77,6 +77,16 @@
             this.btnavanzar.Text = "toolStripButton2";
             this.btnavanzar.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
+            // btnrefrescar
+            // 
+            this.btnrefrescar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnrefrescar.Image = ((System.Drawing.Image)(resources.GetObject("btnrefrescar.Image")));
+            this.btnrefrescar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnrefrescar.Name = "btnrefrescar";
+            this.btnrefrescar.Size = new System.Drawing.Size(23, 22);
+            this.btnrefrescar.Text = "toolStripButton1";
+            this.btnrefrescar.Click += new System.EventHandler(this.btnrefrescar_Click);
+            // 
             // btnhome
             // 
             this.btnhome.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -92,7 +102,7 @@
             this.cuadroBusqueda.BackColor = System.Drawing.Color.PaleTurquoise;
             this.cuadroBusqueda.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.cuadroBusqueda.Name = "cuadroBusqueda";
-            this.cuadroBusqueda.Size = new System.Drawing.Size(635, 25);
+            this.cuadroBusqueda.Size = new System.Drawing.Size(900, 25);
             // 
             // btnBuscar
             // 
@@ -113,16 +123,6 @@
             this.navegador.Size = new System.Drawing.Size(1264, 704);
             this.navegador.TabIndex = 1;
             this.navegador.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.navegador_DocumentCompleted);
-            // 
-            // btnrefrescar
-            // 
-            this.btnrefrescar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.btnrefrescar.Image = ((System.Drawing.Image)(resources.GetObject("btnrefrescar.Image")));
-            this.btnrefrescar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.btnrefrescar.Name = "btnrefrescar";
-            this.btnrefrescar.Size = new System.Drawing.Size(23, 22);
-            this.btnrefrescar.Text = "toolStripButton1";
-            this.btnrefrescar.Click += new System.EventHandler(this.btnrefrescar_Click);
             // 
             // Browser
             // 
