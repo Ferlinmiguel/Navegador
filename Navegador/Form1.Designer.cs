@@ -64,7 +64,7 @@
             this.btnretroceder.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnretroceder.Name = "btnretroceder";
             this.btnretroceder.Size = new System.Drawing.Size(23, 22);
-            this.btnretroceder.Text = "toolStripButton1";
+            this.btnretroceder.Text = "Retroceder";
             this.btnretroceder.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
             // btnavanzar
@@ -74,7 +74,7 @@
             this.btnavanzar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnavanzar.Name = "btnavanzar";
             this.btnavanzar.Size = new System.Drawing.Size(23, 22);
-            this.btnavanzar.Text = "toolStripButton2";
+            this.btnavanzar.Text = "Avanzar";
             this.btnavanzar.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
             // btnrefrescar
@@ -84,7 +84,7 @@
             this.btnrefrescar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnrefrescar.Name = "btnrefrescar";
             this.btnrefrescar.Size = new System.Drawing.Size(23, 22);
-            this.btnrefrescar.Text = "toolStripButton1";
+            this.btnrefrescar.Text = "Refrescar";
             this.btnrefrescar.Click += new System.EventHandler(this.btnrefrescar_Click);
             // 
             // btnhome
@@ -94,7 +94,7 @@
             this.btnhome.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnhome.Name = "btnhome";
             this.btnhome.Size = new System.Drawing.Size(23, 22);
-            this.btnhome.Text = "toolStripButton3";
+            this.btnhome.Text = "Inicio";
             this.btnhome.Click += new System.EventHandler(this.toolStripButton3_Click);
             // 
             // cuadroBusqueda
